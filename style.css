@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {color: #FFFFFF;text-align: center;padding-top: 200px;}
+
+
+
+.jeu {
+    background-image: url(mot.jpg);
+    width: 100%; height: 100%;
+    margin-top: -22px;
+}
+.Sous_titre {
+    color:#FFFFFF; text-align: center; padding-top: 30px;font-size: 30px;
+}
+.contenu {
+    display: flex;
+    flex-direction: column;
+   
+
+    height: 100%;
+
+}
+
+.inputcontenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.prompt {
+    text-align: center;
+    width: 50px;
+    display: block;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.send {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50px;
+    display: block;
+    justify-content: center;
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+}
